@@ -1,0 +1,57 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5fa;
+    color: red;
+}
+
+header, footer {
+    background-color:#fd0ef8;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fd0ef8;
+}
+
+.intro {
+    text-align: center;
+}
+
+    .intro img {
+        width: 200px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+
+.achievements {
+    margin-top: 30px;
+}
+
+    .achievements ul {
+        list-style-type: square;
+        padding-left: 20px;
+    }
+
+.link {
+    margin-top: 20px;
+}
+
+a {
+    color: #3f51b5;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+footer {
+    margin-top: 30px;
+}
